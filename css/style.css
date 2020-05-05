@@ -44,6 +44,7 @@ section:after{
 section img{
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     display: block;
@@ -109,6 +110,13 @@ section img{
         font-size: 4em;
     }
 }
+
+@media screen and (max-width: 700px){
+    .moon{
+        font-size: 4em;
+    }
+}
+
 @media screen and (max-width: 500px){
     .text{
         font-size: 2.5em;
