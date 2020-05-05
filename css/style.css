@@ -49,10 +49,6 @@ section img{
     display: block;
     object-fit: cover;
     pointer-events: none;
-
-    max-width: 100%;
-    display: block;
-    object-fit: cover;
 }
 
 .text{
@@ -91,45 +87,30 @@ section img{
     width: 100%;
     height: 100%;
     background-color: transparent;
-    /*background: #ebebe79c;*/
     z-index: 999;
     mix-blend-mode: color;
 }
 
-.mountain_day{
-
-}
-.sun{
-
-}
-
 .block{
-    height: 1000px;
+    padding: 50px 5%;
+    line-height: 30px;
+    color: #fff;
+}
+.block__header{
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-
+.block p{
+    text-align: justify;
+}
 @media screen and (max-width: 900px){
     .text{
         font-size: 4em;
     }
-    .moon{
-        left: -10%;
-    }
-    .sun{
-        left: -25%;
-    }
-
 }
 @media screen and (max-width: 500px){
     .text{
-        font-size: 3em;
+        font-size: 2.5em;
     }
-
-    .moon{
-        left: -40%;
-    }
-    .sun{
-        left: 90vw;
-    }
-
 }
